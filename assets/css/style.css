@@ -7642,15 +7642,28 @@ readers do not read off random characters that represent icons */
   .header .site-contact .parallelogram-content {
     background-color: #F8AA1C; }
 
+@media (max-width: 539px) {
+  .introduction {
+    height: 28vh !important;
+  }
+  .header-slider {
+    height: 200px !important;
+    object-fit: scale-down;
+  }
+}
+.header-slider {
+  object-fit: scale-down;
+  /*object-position: 100% 0%;*/
+}
 .introduction {
   display: block;
-  height: 100vh;
+  height: 50vh;
   position: relative; }
   .introduction .introduction-title {
     display: block;
     width: 100%;
     position: absolute;
-    top: calc(50vh + 100px);
+    top: calc(10vh + 100px);
     transform: translate3d(0, -50%, 0); }
     .introduction .introduction-title h1 {
       font-family: 'Calibri';
@@ -8170,7 +8183,7 @@ button {
 
 @media (max-width: 1199px) {
   .introduction .introduction-title {
-    top: calc(50vh + 50px); }
+    top: calc(10vh + 50px); }
     .introduction .introduction-title h1 {
       font-size: 27px;
       line-height: 32px; }
@@ -8238,13 +8251,13 @@ button {
     .header-t-black video {
       width: 120px; }
   .header-dollar-2 {
-    top: calc(50vh + 120px);
+    top: calc(10vh + 120px);
     left: calc(50vw - 100px);
     width: 100px; }
     .header-dollar-2 video {
       width: 100px; }
   .header-coin {
-    top: calc(50vh + 140px);
+    top: calc(10vh + 140px);
     left: calc(50vw - 160px);
     width: 60px; }
     .header-coin video {
@@ -8382,8 +8395,8 @@ button {
     top: calc(50vh - 250px);
     left: calc(50vw - 620px); }
   .header-dollar-2 {
-    top: calc(50vh + 50px);
+    top: calc(10vh + 50px);
     left: calc(50vw + 200px); }
   .header-coin {
-    top: calc(50vh + 300px);
+    top: calc(10vh + 300px);
     left: calc(50vw - 280px); } }
