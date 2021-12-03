@@ -2317,6 +2317,11 @@ body {
   font-size: 18px;
   line-height: 24px;
 }
+@media (max-width: 576px) {
+  .application-header .application-head .application-name a {
+    font-size: 12px !important;
+  }
+}
 .application-header .application-head .application-name a {
   color: #F8AA1C;
 }
